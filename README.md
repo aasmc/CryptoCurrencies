@@ -7,7 +7,7 @@ of its price variation in the last 24h.
 
 The project follows a Clean Architecture approach and MVVM pattern.
 
-![Project Structure](project structure.png)
+![Project Structure](images/project structure.png)
 
 ## Charts
 
