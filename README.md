@@ -15,8 +15,9 @@ The Project uses MPAndroidChart library to display the coin history.
 https://github.com/PhilJay/MPAndroidChart
 ```
 
-Complements the “Reactive Streams on Android: StateFlow and SharedFlow” tutorial.
+### API
 
+The coins data is retrieved from https://docs.coincap.io/#ee30bea9-bb6b-469d-958a-d3e35d442d7a
 
 ```
 Copyright (c) 2021 Razeware LLC
