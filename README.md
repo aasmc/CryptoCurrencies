@@ -7,6 +7,8 @@ of its price variation in the last 24h.
 
 The project follows a Clean Architecture approach and MVVM pattern.
 
+![Project Structure](project structure.png)
+
 ## Charts
 
 The Project uses MPAndroidChart library to display the coin history.
