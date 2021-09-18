@@ -1,5 +1,7 @@
 package ru.aasmc.cryptocurrencies.data.repositories
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import kotlinx.coroutines.withContext
 import ru.aasmc.cryptocurrencies.data.api.CoinCapApi
 import ru.aasmc.cryptocurrencies.data.mappers.CoinMapper
@@ -28,6 +30,7 @@ class CoinCapCoinsRepository(
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override suspend fun getCoinHistory(coinId: String): Result<CoinHistory> =
         withContext(dispatchersProvider.io()) {
             Result {

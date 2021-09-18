@@ -22,5 +22,7 @@ class CoinViewHolder(
             coinMarketCap.text = marketCapUsd
             coinChange.text = changePercent24Hr
         }
+
+        itemView.setOnClickListener { listener.onCoinClicked(id, name) }
     }
 }

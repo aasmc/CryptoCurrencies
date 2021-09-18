@@ -10,6 +10,7 @@ import ru.aasmc.cryptocurrencies.presentation.coinlist.model.UiCoin
 class CoinAdapter(
     private val listener: CoinClickListener
 ) : ListAdapter<UiCoin, CoinViewHolder>(CoinDiffUtils()) {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinViewHolder {
         return CoinViewHolder(
             binding = RecyclerViewCoinItemBinding.inflate(
